@@ -1,0 +1,7 @@
+Using recursion, compute the greatest common divisor (GCD) of two positive integers.
+
+Sample Return Values:
+
+GCD(1,5) = 1  
+GCD(10,100) = 10  
+GCD(22,131) = 1

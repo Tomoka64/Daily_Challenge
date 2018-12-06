@@ -1,0 +1,17 @@
+Use Recursive.
+
+A word is considered elfish if it contains the
+letters: e, l, and f in it, in any order. For example, we would say
+that the following words are elfish: whiteleaf, tasteful, unfriendly,
+and waffles, because they each contain those letters.
+• Write a predicate function called elfish? that, given a word,
+tells us if that word is elfish or not.
+• Write a more generalized predicate function called x-ish? that,
+given two words, returns true if all the letters of the first word
+are contained in the second.
+
+もし e, l , fの文字が与えられた文字列に含まれていたらその文字列はelfishであるといえる。
+whiteleaf, tasteful, unfriendlyはelfishである。
+
+1. isElfish(word)をかく。
+2. isXish(word1, word2) word1の文字がword2に全部含まれていたらtrueそれ以外はfalse
